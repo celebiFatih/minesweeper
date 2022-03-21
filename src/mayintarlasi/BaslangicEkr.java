@@ -23,10 +23,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
  
-/**
- *
- * @author casper
- */
+
 class BaslangicEkr implements ActionListener, MouseListener {
  
        private JFrame ekran = null;
@@ -66,16 +63,16 @@ class BaslangicEkr implements ActionListener, MouseListener {
        }
        
        public void resimleriYukle() {
-           imgGulenYuz = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\smiley.png");
-           imgKapak = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\t.png");
-           imgMayin = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\pit.png");
-           lossImageIcon = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\loss.png");
-           imgAglayanYuz = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\cry.png");
-           imgBir = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\1.png");
-           imgIki = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\2.png");
-           imgUc = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\3.png");
-           imgDort = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\4.png");
-           imgBes = getScaledImage("C:\\Users\\casper\\Documents\\NetBeansProjects\\mayintarlasi\\images\\5.png");
+           imgGulenYuz = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\smiley.png");
+           imgKapak = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\t.png");
+           imgMayin = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\pit.png");
+           lossImageIcon = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\loss.png");
+           imgAglayanYuz = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\cry.png");
+           imgBir = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\1.png");
+           imgIki = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\2.png");
+           imgUc = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\3.png");
+           imgDort = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\4.png");
+           imgBes = getScaledImage("..\\NetBeansProjects\\mayintarlasi\\images\\5.png");
           
           
        }
